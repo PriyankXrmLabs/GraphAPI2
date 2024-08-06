@@ -1,0 +1,28 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "facfd96f-a8a8-4af7-ad07-44646f0a71f1",
+  "alias": "GraphApiWebPart",
+  "componentType": "WebPart",
+
+
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "Marquee" },
+    "description": { "default": "A marquee webpart provide the animated text" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Marquee",
+      "dropdownField":"right",
+      "toggleField":true,
+      "sliderField":7
+
+    }
+  }]
+}

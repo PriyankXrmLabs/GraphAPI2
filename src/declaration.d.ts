@@ -1,0 +1,1 @@
+declare module './webparts/graphApi/components/FunctionalComponent/Hello.jsx';

@@ -1,0 +1,15 @@
+.red {
+    background-color: red;
+    border-radius: 15px;
+    color: #fff;
+    height: 6vh;
+    width: 10vw;
+}
+
+.div{
+    width: max-content;
+}
+
+.table-container {
+    overflow-x: auto;
+  }
